@@ -1,0 +1,121 @@
+.BaseParent{
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+    max-height: fit-content;
+    width: 100%;
+    background: radial-gradient(closest-side,rgb(95, 138, 146),rgb(138, 164, 168),rgb(199, 205, 206));
+}
+
+.MainTitle{
+    margin: 4px;
+    padding: 3px;
+    border: 2px;
+    text-align: center;
+}
+
+.Navbars{
+    margin: 8px;
+    padding: 3px;
+    border: none;
+    text-decoration: none;
+    font-size: medium;
+    font-weight: 600;
+    color: black;
+}
+
+.Navbars:hover{
+    margin: 9px;
+    padding: 5px;
+    border: 2px;
+    background-color: rgb(168, 27, 196);
+    border-radius: 15px;
+    text-decoration: none;
+    color: white;
+    transition: all 0.5s;
+}
+
+.Content{
+    margin: 2px;
+    padding: 5px;
+}
+  
+.Footer{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    margin-top: auto;
+    border-top: 1px solid whitesmoke;
+    padding: 5px;
+    bottom: 0%;
+}
+
+.DashboardCont{
+    margin: 3px;
+    border: 3px;
+    padding: 2px;
+    display: grid;
+    grid-template-rows: auto auto auto;
+}
+
+.CountCont{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.CountCont p{
+    margin: 8px;
+    padding: 15px;
+    font-family: sans-serif;
+    font-weight: 500;
+    font-size: medium;
+}
+
+.CountCont span{
+    font-weight: 600;
+    font-size: x-large;
+}
+
+.CountCont p:nth-child(1){
+    border: 10px ridge rgb(111, 26, 208);
+    background-color:rgb(151, 118, 188) ;
+    border-radius: 25px;
+}
+
+.CountCont p:nth-child(2){
+    border: 10px ridge rgb(151, 168, 4);
+    background-color:rgb(147, 170, 104) ;
+    border-radius: 25px;
+}
+
+.CountCont p:nth-child(3){
+    border: 10px ridge rgb(173, 11, 185);
+    background-color:rgb(201, 110, 200) ;
+    border-radius: 25px;
+}
+
+.CountCont p:nth-child(1):hover{
+    border: 10px ridge rgb(111, 26, 208);
+    background-color:rgb(214, 206, 224) ;
+    border-radius: 12px;
+    transition: all 0.8s;
+    font-size: x-large;
+}
+
+.CountCont p:nth-child(2):hover{
+    border: 10px ridge rgb(151, 168, 4);
+    background-color:rgb(214, 206, 224) ;
+    border-radius: 12px;
+    transition: all 0.8s;
+    font-size: x-large;
+}
+
+.CountCont p:nth-child(3):hover{
+    border: 10px ridge rgb(173, 11, 185);
+    background-color:rgb(214, 206, 224) ;
+    border-radius: 12px;
+    transition: all 0.8s;
+    font-size: x-large;
+}

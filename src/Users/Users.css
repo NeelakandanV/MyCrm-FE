@@ -1,0 +1,100 @@
+.view-btn{
+    margin:6px;
+    border-radius: 50%;
+  }
+
+  .edit-btn{
+    margin:6px;
+    border-radius: 50%;
+  }
+  
+  .delete-btn:hover{
+    background-color: crimson;
+  }
+  
+  .EmpReadCont{
+    margin: 3px;
+  }
+  
+  .EmpPagiCont{
+    padding: 5px;
+    padding-bottom: 20px;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+  }
+  
+  .EmpPagiCont a:hover{
+    cursor: pointer;
+    background-color: blue;
+    color: whitesmoke;
+  }
+  
+  .Pagination{
+    display: flex;
+    flex-wrap: wrap;
+  }
+  
+  .Pagination a{
+    border: 1px solid black;
+    padding:8px;
+    background-color: aqua;
+    color: black;
+  }
+
+  .EmpTableCont{
+    text-align: center;
+  }
+
+  .view-mainCon{
+    display: flex;
+    flex-wrap:wrap ;
+    justify-content: center;
+  }
+  
+  .view-user{
+    margin: 3px;
+    padding: 15px;
+    border: 3px;
+    border-radius: 15px;
+    background-color: rgb(162, 174, 207);
+    color: black;
+    height: auto;
+    width: fit-content;
+    text-align: left;
+  }
+
+  .Backbtn{
+    margin: 10px;
+    text-align: right;
+  }
+
+  .CreateForm{
+    display: flex;
+    flex-direction: column;
+    width: 80%;
+  }
+  
+  .UserFormCont{
+    margin: 15px ;
+    padding: 10px;
+    border: 2px solid aliceblue;
+    border-radius: 50px;
+    height: auto;
+    background-color: white;
+    color: black; 
+  }
+
+  .EmpCrtBtn{
+    text-align: center;
+  }
+
+  .EmpCrt{
+    margin:5px;
+    padding: 10px;
+    min-width: 120px;
+    border: 2px;
+    border-radius: 50px;
+    text-align: center;
+  }
