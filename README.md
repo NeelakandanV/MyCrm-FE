@@ -1,8 +1,25 @@
-# React + Vite
+# MyCrm - An CRM website
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+## Login Credentials
+### For Admin
+**Email - hari0709venkatesan@gmail.com**
+**Password - 12345678**
 
-Currently, two official plugins are available:
+### For Lead
+**Email - lead@gmail.com**
+**Password - 12345678**
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+## This documentaion provides details about the CRM site with user Authentication with role based validations(Roles - Admin, Manager , Employee and Lead)and Authorization, implemented using vite + React. This APP allows you to manage Create,Read, Manage or Update Data and delete Data based on their roles(Authorizations-Only verified users can modify data).Site functionalities also include Login(Two step Authentication - verify with Email link) , Forgot Password , Reset Password and Delete operations.Admins has access to all data including manager data except creating service requests.Verified Manager has access to modify all data except creating service requests.Verified Employees has access to modify lead,contact and services data.Managers and Employees who are not verified can only able to view data cannot able to modify it.After verifying their email with email verification link their access will be granted.Service Requests can only be created by Leads.
+
+## URL - https://miniurlshortener.netlify.app/users/
+
+## Features:-
+### yup and Formik - For form validations<br/>
+### Axios - To manage API calls<br/>
+### React Bootstrap and Material Ui - For component stylings.<br/>
+
+### Since I'm deployed the apis in render's free tier, The initial request is taking time, Please wait little longer for initial request.Inconvenience Regretted.
+
+### For Further Details,visit my Backend Source Code repo.
+
+# Backend Source Code -[Github Link](https://github.com/NeelakandanV/MyCrm-BE)
